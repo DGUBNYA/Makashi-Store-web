@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.colection_bord {
+  padding: 50px;
+}
+.colection_continer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 100px;
+}
+.collection {
+  height: 50rem;
+}
+
+.paragraph {
+  align-self: center;
+  flex-direction: column;
+}
+.paragraph > p {
+  font-size: 2rem;
+  color: var(--mainColor);
+  padding-top: 1rem;
+}
+
+.paragraph p span {
+  color: var(--secondaryColor);
+  font-weight: 900;
+}
+.paragraph > img {
+  height: 150px;
+  width: 200px;
+}
+
+.paragraph :hover {
+  transform: scale(1.05);
+}
+@media only screen and (max-width: 1300px) {
+  .colection_bord {
+    padding-top: 30rem;
+  }
+  .colection_continer {
+    gap: 3rem;
+    padding-bottom: 10rem;
+  }
+
+  .collection {
+    height: 40rem;
+  }
+
+  .paragraph > p {
+    font-size: 1.5rem;
+  }
+
+  .paragraph > img {
+    height: 8rem;
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .colection_bord {
+    padding-top: 30rem;
+  }
+
+  .colection_continer {
+    gap: 3rem;
+    padding-bottom: 10rem;
+  }
+
+  .collection {
+    height: 30rem;
+  }
+
+  .paragraph > p {
+    font-size: 1.5rem;
+  }
+
+  .paragraph > img {
+    height: 8rem;
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .colection_bord {
+    padding-top: 90rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .colection_continer {
+    gap: 1rem;
+  }
+
+  .paragraph {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .paragraph p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .collection {
+    height: 22rem;
+  }
+}

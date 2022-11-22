@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.new_collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 3rem;
+}
+
+.new_collection img {
+  width: 40rem;
+}
+
+.new_collection h3 {
+  font-size: 3rem;
+  color: var(--mainColor);
+  text-transform: uppercase;
+}
+.new_collection p {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  font-weight: 300;
+  width: 25rem;
+}
+
+.shoes-sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 3rem;
+}
+
+.shoes-sale img {
+  width: 40rem;
+}
+.shoes-sale p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--mainColor);
+}
+
+.shoes-sale span {
+  color: var(--secondaryColor);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .new_collection img {
+    width: 30rem;
+  }
+  .new_collection p {
+    width: 20rem;
+  }
+  .shoes-sale img {
+    width: 30rem;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .new_collection {
+    flex-direction: column;
+  }
+  .new_collection img {
+    width: 20rem;
+  }
+  .new_collection h3 {
+    font-size: 2rem;
+  }
+  .new_collection p {
+    width: 20rem;
+  }
+  .shoes-sale {
+    flex-direction: column-reverse;
+  }
+  .shoes-sale img {
+    width: 20rem;
+  }
+}

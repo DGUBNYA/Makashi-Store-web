@@ -3,6 +3,28 @@
   margin: 0;
   box-sizing: border-box;
 }
+.Category_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.Category_btns button {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: var(--mainColor);
+  color: var(--BgColor);
+  padding: 0.6rem 0.8rem 0.5rem 0.8rem;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.Category_btns button:hover {
+  background-color: var(--secondaryColor);
+}
 
 .products {
   margin: 20px auto;

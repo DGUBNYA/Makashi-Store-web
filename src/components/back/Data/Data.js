@@ -7,6 +7,7 @@ const data = {
       price: 25,
       image: "./pics/SHIRTS/wakeUp.png",
       alt: "Green shirt with lettering Wake Up",
+      category: "Shirt",
     },
     {
       id: "2",
@@ -15,6 +16,7 @@ const data = {
       price: 25,
       image: "./pics/SHIRTS/coolAlien.png",
       alt: "Purple shirt with a drawing of an alien",
+      category: "Shirt",
     },
     {
       id: "3",
@@ -23,6 +25,7 @@ const data = {
       price: 25,
       image: "./pics/SHIRTS/summer.png",
       alt: "Brown shirt with a drawing of a palm tree and the inscription Summer",
+      category: "Shirt",
     },
     {
       id: "4",
@@ -31,6 +34,7 @@ const data = {
       price: 40,
       image: "./pics/SHIRTS/sunshine.png",
       alt: "Green sweater with a drawing of a sunset and an inscription Sunshine",
+      category: "Sweater",
     },
     {
       id: "5",
@@ -39,6 +43,7 @@ const data = {
       price: 40,
       image: "./pics/SHIRTS/simple.png",
       alt: "Simple gray sweater with our logo",
+      category: "Sweater",
     },
     {
       id: "6",
@@ -47,6 +52,7 @@ const data = {
       price: 40,
       image: "./pics/SHIRTS/vampireLipsSweatshirt.png",
       alt: "Pink sweater with a drawing of a vampire's lips",
+      category: "Sweater",
     },
     {
       id: "7",
@@ -55,6 +61,7 @@ const data = {
       price: 55,
       image: "./pics/SHIRTS/smile.png",
       alt: "Yellow hoodie with a smiling emoji",
+      category: "Hoodie",
     },
     {
       id: "8",
@@ -63,6 +70,7 @@ const data = {
       price: 55,
       image: "./pics/SHIRTS/peace.png",
       alt: "Purple/pink hoodie with a hand and the inscription Peace symbol",
+      category: "Hoodie",
     },
     {
       id: "9",
@@ -71,6 +79,7 @@ const data = {
       price: 55,
       image: "./pics/SHIRTS/xoxo.png",
       alt: "Blue hoodie with graffiti of a crown",
+      category: "Hoodie",
     },
     {
       id: "10",
@@ -79,6 +88,7 @@ const data = {
       price: 55,
       image: "./pics/SHIRTS/peaceBlack.png",
       alt: "Black shirt with a hand and the inscription Peace symbol",
+      category: "Shirt",
     },
     {
       id: "11",
@@ -87,6 +97,7 @@ const data = {
       price: 100,
       image: "./pics/SHOES/Makashi beauty.png",
       alt: "Yellow/white/black boot with our logo",
+      category: "Shoes",
     },
     {
       id: "12",
@@ -95,6 +106,7 @@ const data = {
       price: 100,
       image: "./pics/SHOES/military beauty.png",
       alt: "Light blue and white boot with touches of a military element",
+      category: "Shoes",
     },
     {
       id: "13",
@@ -103,6 +115,7 @@ const data = {
       price: 85,
       image: "./pics/SHOES/Makashi gentle.png",
       alt: "Gray shoe with abstract painting",
+      category: "Shoes",
     },
     {
       id: "14",
@@ -111,6 +124,7 @@ const data = {
       price: 85,
       image: "./pics/SHOES/Makashi kicks.png",
       alt: "Orange/green and white shoe with Makashi lettering",
+      category: "Shoes",
     },
     {
       id: "15",
@@ -119,6 +133,7 @@ const data = {
       price: 85,
       image: "./pics/SHOES/Makashi abstract.png",
       alt: "Gray shoe with abstract painting",
+      category: "Shoes",
     },
     {
       id: "16",
@@ -127,6 +142,7 @@ const data = {
       price: 185,
       image: "./pics/SHOES/Untitled-1.png",
       alt: "The new sneakers model X-MAKASHI 4 in green and white color",
+      category: "Shoes",
     },
     {
       id: "17",
@@ -135,6 +151,7 @@ const data = {
       price: 185,
       image: "./pics/SHOES/Untitled-2.png",
       alt: "The new sneakers model X-MAKASHI 4 in orange and white color",
+      category: "Shoes",
     },
     // {
     //   id: "18",
@@ -151,6 +168,7 @@ const data = {
       price: 200,
       image: "./pics/SHOES/Untitled-4.png",
       alt: "Sneakers model S-MAKASHI in black and purple color",
+      category: "Shoes",
     },
     {
       id: "20",
@@ -159,6 +177,7 @@ const data = {
       price: 200,
       image: "./pics/SHOES/Untitled-5.png",
       alt: "Sneakers model S-MAKASHI light blue and blue color",
+      category: "Shoes",
     },
     {
       id: "21",
@@ -167,6 +186,7 @@ const data = {
       price: 200,
       image: "./pics/SHOES/Untitled-6.png",
       alt: "Sneakers model S-MAKASHI in white gray color",
+      category: "Shoes",
     },
   ],
 };

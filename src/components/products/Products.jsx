@@ -1,29 +1,35 @@
 import React from "react";
-import { useState } from "react";
-import Categories from "../back/Data/Data";
+
+// import Categories from "../back/Data/Data";
 import "../../csss/Products.css";
+import { useEffect, useState } from "react";
+
+// const filterProduct = (category) => {}
 
 const Products = ({ productItems, handleAddProduct }) => {
-  const [data, setProduct] = useState(Categories);
-  const FilterResult = (data) => {
-    Categories.filter((productItem) => {
-      return productItem.productItems === data;
-    });
-    setProduct(Categories);
+  const [products, setProducts] = useState(productItems);
+
+  const handleFilter = (category) => {
+    if (category === "all") {
+      setProducts(productItems);
+    } else {
+      const output = productItems.filter((item) => item.category === category);
+      setProducts(output);
+    }
   };
 
   return (
     <React.Fragment>
       <div className="Category_btns">
-        <button>All </button>
-        <button onClick={() => FilterResult("Shirt")}>Shirt</button>
-        <button onClick={() => FilterResult("Sweater")}>Sweater</button>
-        <button onClick={() => FilterResult("Hoodie")}>Hoodie</button>
-        <button onClick={() => FilterResult("Shoes")}>Shoes</button>
+        <button onClick={() => handleFilter("all")}>All </button>
+        <button onClick={() => handleFilter("Shirt")}>Shirt</button>
+        <button onClick={() => handleFilter("Sweater")}>Sweater</button>
+        <button onClick={() => handleFilter("Hoodie")}>Hoodie</button>
+        <button onClick={() => handleFilter("Shoes")}>Shoes</button>
       </div>
       <div className="products">
-        {productItems.map((productItem) => (
-          <div className="card">
+        {products.map((productItem) => (
+          <div key={productItem.id} className="card">
             <div>
               <img
                 className="product_image"

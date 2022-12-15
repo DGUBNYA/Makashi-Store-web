@@ -2,7 +2,7 @@ import React from "react";
 
 // import Categories from "../back/Data/Data";
 import "../../csss/Products.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // const filterProduct = (category) => {}
 

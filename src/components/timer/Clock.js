@@ -7,7 +7,7 @@ const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
   return (
     <Fragment>
       <section className="timer-container">
-        <h2 className="sale-titel">november sale</h2>
+        <h2 className="sale-titel">winter sale</h2>
         <section className="timer">
           <section>
             <p>{timerDays}</p>

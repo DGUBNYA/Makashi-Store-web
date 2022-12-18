@@ -14,7 +14,7 @@ const Sale = () => {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date("November 30,2022 ").getTime();
+    const countDownDate = new Date("January 30,2023 ").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
